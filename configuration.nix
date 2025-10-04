@@ -88,10 +88,10 @@ in
     description = "matt";
     extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
-    #  thunderbird
+      opencode
     ];
   };
-
+  serivces.ollama.enable = true;
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
