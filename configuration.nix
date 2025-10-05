@@ -98,6 +98,7 @@ in
     gh
     keepassxc
     helium
+    tor-browser-bundle-bin
   ];
 
   # Before changing this value read the documentation for this option
