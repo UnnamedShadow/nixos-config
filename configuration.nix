@@ -99,8 +99,6 @@ in
     keepassxc
     helium
     tor-browser-bundle-bin
-    cryptsetup
-    udisks2
   ];
 
   # Before changing this value read the documentation for this option
