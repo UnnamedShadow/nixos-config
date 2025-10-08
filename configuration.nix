@@ -15,7 +15,6 @@ in
 
   fonts.packages = with pkgs; [
     nerd-fonts.fira-code
-    libreoffice
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
