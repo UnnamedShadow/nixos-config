@@ -88,6 +88,7 @@ in
     description = "matt";
     extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
+      libreoffice-qt6-fresh
     ];
   };
   nixpkgs.config.allowUnfree = true;
