@@ -99,6 +99,7 @@ in
     keepassxc
     helium
     tor-browser-bundle-bin
+    cryptsetup
   ];
 
   # Before changing this value read the documentation for this option
